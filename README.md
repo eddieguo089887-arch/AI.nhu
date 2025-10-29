@@ -88,8 +88,7 @@ drive.mount('/content/drive')
 
 ###  📊 YOLOv5 評估圖解釋
 
-
-1. **F1-score** 是 Precision 和 Recall 的 **「調和平均」**
+1.**F1-score** 是 Precision 和 Recall 的 **「調和平均」**
 
 這張圖會顯示在不同閾值下 F1-score 的變化。
 
@@ -101,7 +100,7 @@ drive.mount('/content/drive')
 
 <img width="1793" height="743" alt="5_1" src="https://github.com/user-attachments/assets/45a9caed-f845-430f-ad76-8e840d4efc1c" />
 
-2. **PR_curve (Precision-Recall Curve)**
+2.**PR_curve (Precision-Recall Curve)**
 
 橫軸是 Recall、縱軸是 Precision。
 
@@ -117,7 +116,7 @@ drive.mount('/content/drive')
 
 <img width="1779" height="731" alt="5_2" src="https://github.com/user-attachments/assets/e8ae2dea-7620-4c0a-9c27-1d8378a9237c" />
 
-3. **P_curve (Precision Curve)**
+3.**P_curve (Precision Curve)**
 
 P = Precision（精確率）：預測為「正確」的比例。
 
@@ -131,7 +130,7 @@ P = Precision（精確率）：預測為「正確」的比例。
 
 <img width="1787" height="643" alt="5_3" src="https://github.com/user-attachments/assets/bed8a814-12af-49a1-afec-df54e7e409f7" />
 
-4. **R_curve (Recall Curve)**
+4.**R_curve (Recall Curve)**
 
 R = Recall（召回率）：真正的正樣本被模型找到的比例。
 
@@ -143,7 +142,7 @@ R = Recall（召回率）：真正的正樣本被模型找到的比例。
 
 <img width="1796" height="694" alt="5_4" src="https://github.com/user-attachments/assets/ccbe02b7-9bfa-4998-86f7-0729f6c20737" />
 
-5. **confusion_matrix (混淆矩陣)**
+5.**confusion_matrix (混淆矩陣)**
 
 是最直觀的「分類錯誤分析圖」。
 
